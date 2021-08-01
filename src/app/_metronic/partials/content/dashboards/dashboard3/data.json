@@ -1,0 +1,213 @@
+[
+    {
+      "description": "Tiger Offers",
+      "elements": [
+        {
+          "id": "ScenarioLoading Tiger BTL Offer component with the Booster cards",
+          "keyword": "Scenario",
+          "line": 0,
+          "name": "Loading Tiger BTL Offer component with the Booster cards",
+          "skipped": false,
+          "sourceLine": "undefined",
+          "status": "passed",
+          "steps": [
+            {
+              "hidden": false,
+              "keyword": ">",
+              "match": {
+                "location": "/Users/1161161/Desktop/Repos/WOW/atomic-e2e/src/widgets/tiger-btl-offers/tiger-btl-offers.e2e.ts:1:0"
+              },
+              "name": "Loading Tiger BTL Offer component with the Booster cards",
+              "result": {
+                "duration": 7431,
+                "status": "passed"
+              },
+              "tags": [],
+              "text": [
+                "<a href=\"#\">Loading Tiger BTL Offer component with the Booster cards</a>"
+              ]
+            }
+          ],
+          "tags": [],
+          "type": "scenario",
+          "uri": ""
+        },
+        {
+          "id": "ScenarioClicking on the Boost button to boost the offer and the button label should be changing to Ready to shop",
+          "keyword": "Scenario",
+          "line": 0,
+          "name": "Clicking on the Boost button to boost the offer and the button label should be changing to Ready to shop",
+          "skipped": false,
+          "sourceLine": "undefined",
+          "status": "failed",
+          "steps": [
+            {
+              "hidden": false,
+              "keyword": ">",
+              "match": {
+                "location": "/Users/1161161/Desktop/Repos/WOW/atomic-e2e/src/widgets/tiger-btl-offers/tiger-btl-offers.e2e.ts:1:0"
+              },
+              "name": "Clicking on the Boost button to boost the offer and the button label should be changing to Ready to shop",
+              "result": {
+                "duration": 14765,
+                "error_message": "1) An error occurred in Selector code:\n\n   TypeError: Cannot read property 'shadowRoot' of null\n\n   Browser: Chrome 92.0.4515.107 / macOS 10.15.7\n\n      52 | });\n      53 | \n      54 | test('Clicking on the Boost button to boost the offer and the button label should be changing to Ready to shop', async t => {\n      55 |   await t\n      56 |       .expect(boostButtonElement.exists)\n   --------------------------------------------\n    &rarr; 57 |       .ok()\n   --------------------------------------------\n      58 |       .click(boostButtonElement)\n      59 |       .expect(readyToShopButtonElement.exists)\n      60 |       .ok();\n      61 | });\n      62 | \n\n      at <anonymous> (/Users/1161161/Desktop/Repos/WOW/atomic-e2e/src/widgets/tiger-btl-offers/tiger-btl-offers.e2e.ts:57:8)\n      at <anonymous> (/Users/1161161/Desktop/Repos/WOW/atomic-e2e/src/widgets/tiger-btl-offers/tiger-btl-offers.e2e.ts:8:71)\n      at __awaiter (/Users/1161161/Desktop/Repos/WOW/atomic-e2e/src/widgets/tiger-btl-offers/tiger-btl-offers.e2e.ts:4:12)\n      at <anonymous> (/Users/1161161/Desktop/Repos/WOW/atomic-e2e/src/widgets/tiger-btl-offers/tiger-btl-offers.e2e.ts:54:124)\n",
+                "status": "failed"
+              },
+              "tags": [],
+              "text": [
+                "<a href=\"#\">Clicking on the Boost button to boost the offer and the button label should be changing to Ready to shop</a>"
+              ]
+            }
+          ],
+          "tags": [],
+          "type": "scenario",
+          "uri": ""
+        },
+        {
+          "id": "ScenarioClicking on the carousel pagination through the widget to view the rest of the offer cards",
+          "keyword": "Scenario",
+          "line": 0,
+          "name": "Clicking on the carousel pagination through the widget to view the rest of the offer cards",
+          "skipped": false,
+          "sourceLine": "undefined",
+          "status": "passed",
+          "steps": [
+            {
+              "hidden": false,
+              "keyword": ">",
+              "match": {
+                "location": "/Users/1161161/Desktop/Repos/WOW/atomic-e2e/src/widgets/tiger-btl-offers/tiger-btl-offers.e2e.ts:1:0"
+              },
+              "name": "Clicking on the carousel pagination through the widget to view the rest of the offer cards",
+              "result": {
+                "duration": 18242,
+                "status": "passed"
+              },
+              "tags": [],
+              "text": [
+                "<a href=\"#\">Clicking on the carousel pagination through the widget to view the rest of the offer cards</a>"
+              ]
+            }
+          ],
+          "tags": [],
+          "type": "scenario",
+          "uri": ""
+        }
+      ],
+      "id": "Tiger Offers",
+      "keyword": "Feature",
+      "line": 0,
+      "metadata": {
+        "browser": {
+          "name": "chrome",
+          "version": "92.0.4515.107"
+        },
+        "device": "macOS",
+        "platform": {
+          "name": "osx",
+          "version": "10.15.7"
+        },
+        "reportTime": "2021-07-23T10:51:24.721Z",
+        "startTime": "2021-07-23T10:50:44.239Z"
+      },
+      "name": "Tiger Offers",
+      "runInfo": {
+        "endTime": "2021-07-23T10:51:24.720Z",
+        "passed": 2,
+        "startTime": "2021-07-23T10:50:44.239Z",
+        "testCount": 3,
+        "userAgents": [
+          "Chrome 92.0.4515.107 / macOS 10.15.7"
+        ],
+        "warnings": []
+      },
+      "skipped": false,
+      "tags": [
+        {
+          "line": 0,
+          "name": "@clicking"
+        },
+        {
+          "line": 0,
+          "name": "@carousel"
+        },
+        {
+          "line": 0,
+          "name": "@pagination"
+        },
+        {
+          "line": 0,
+          "name": "@through"
+        },
+        {
+          "line": 0,
+          "name": "@widget"
+        },
+        {
+          "line": 0,
+          "name": "@view"
+        },
+        {
+          "line": 0,
+          "name": "@rest"
+        },
+        {
+          "line": 0,
+          "name": "@offer"
+        },
+        {
+          "line": 0,
+          "name": "@cards"
+        },
+        {
+          "line": 0,
+          "name": "@boost"
+        },
+        {
+          "line": 0,
+          "name": "@button"
+        },
+        {
+          "line": 0,
+          "name": "@label"
+        },
+        {
+          "line": 0,
+          "name": "@changing"
+        },
+        {
+          "line": 0,
+          "name": "@ready"
+        },
+        {
+          "line": 0,
+          "name": "@shop"
+        },
+        {
+          "line": 0,
+          "name": "@loading"
+        },
+        {
+          "line": 0,
+          "name": "@tiger"
+        },
+        {
+          "line": 0,
+          "name": "@btl"
+        },
+        {
+          "line": 0,
+          "name": "@component"
+        },
+        {
+          "line": 0,
+          "name": "@booster"
+        },
+        {
+          "line": 0,
+          "name": "@offers"
+        }
+      ],
+      "uri": "/Users/1161161/Desktop/Repos/WOW/atomic-e2e/src/widgets/tiger-btl-offers/tiger-btl-offers.e2e.ts:1"
+    }
+  ]

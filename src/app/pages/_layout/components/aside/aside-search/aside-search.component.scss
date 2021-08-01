@@ -1,0 +1,14 @@
+.mat-tree {
+    background-color: transparent;
+} 
+
+.set-list {
+    display: flex;
+    flex-direction: row;
+    flex-wrap: nowrap;
+    align-content: flex-start;
+    justify-content: space-evenly;
+    align-items: flex-end;
+    color: #fff  !important;
+    cursor: pointer;
+}

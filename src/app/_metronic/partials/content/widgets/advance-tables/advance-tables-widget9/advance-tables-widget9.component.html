@@ -1,0 +1,70 @@
+<!--begin::Advance Table Widget 9-->
+<div class="card card-custom" [ngClass]="cssClass">
+  <!--begin::Header-->
+  <div class="card-header border-0 py-5">
+    <h3 class="card-title align-items-start flex-column">
+      <span class="card-label font-weight-bolder text-white">Scenarios</span>
+    </h3>
+
+  </div>
+  <!--end::Header-->
+
+  <!--begin::Body-->
+  <div class="card-body pt-0 pb-3">
+    <div class="tab-content">
+      <!--begin::Table-->
+      <div class="table-responsive">
+        <table class="table table-head-custom table-vertical-center ">
+          <thead>
+            <tr class="text-left">
+              <th style="min-width: 250px" class="pl-7"></th>
+              <th style="min-width: 250px"></th>
+              <th style="min-width: 250px"></th>
+
+            </tr>
+          </thead>
+          <tbody>
+            <tr *ngFor="let data of scenarios[0].elements; let i=index">
+              <td class="pl-0 py-0">
+                <div class="d-flex align-items-center">
+                  <div class="symbol symbol-50 symbol-light mr-4">
+                    <span class="symbol-label">
+                      {{i+1}}
+                    </span>
+                  </div>
+                  <div>
+                    <a href="#"
+                      class="text-dark-75 font-weight-bolder text-hover-primary mb-1 font-size-lg">{{data.keyword}}
+                      <span class="text-muted font-weight-bold d-block">{{data.name}}</span></a>
+                  </div>
+                </div>
+              </td>
+              <td class="pr-0 text-right">
+
+              </td>
+
+              <td class="pr-0 text-right">
+                <a href="#" *ngIf="data.status == 'failed'" class="btn btn-light-danger font-weight-bolder font-size-sm mr-5">
+                  <span [inlineSVG]="'./assets/media/svg/icons/Navigation/Close.svg'"></span>
+                </a>
+
+                <a href="#" *ngIf="data.status == 'passed'" class="btn btn-success font-weight-bolder font-size-sm mr-5">
+                  <span [inlineSVG]="'./assets/media/svg/icons/Navigation/Check.svg'"></span>
+                </a>
+
+                <a href="#" class="btn btn-light-success font-weight-bolder font-size-sm">
+                  <span [inlineSVG]="'./assets/media/svg/icons/Navigation/Check.svg'"></span>
+                </a>
+
+                  
+               </td>
+            </tr>
+          </tbody>
+        </table>
+      </div>
+      <!--end::Table-->
+    </div>
+  </div>
+  <!--end::Body-->
+</div>
+<!--end::Advance Table Widget 9-->
